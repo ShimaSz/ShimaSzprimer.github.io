@@ -9,6 +9,7 @@ body {
     color: #333;
     font-size: 1.2rem ;
     line-height: 1.4em ;
+    background-color: #e2dede;
 }
 
 .header {
@@ -149,6 +150,8 @@ h2{
     padding-top: 10px;
     font-family: "roboto";
     font-style: black;
+    font-weight: bold;
+    font-size: 3.5em;
 }
 
 .contacto1{
@@ -164,6 +167,41 @@ h2{
     background-color: rgb(201, 199, 199) ;
 }
 
-main{
+#carouselExampleDark{
+    padding-top: 50px;
+}
+.d-block{
+    margin: 0 auto;
+}
+.ingreso{
+    padding-bottom: 1px;
+    background-color: #000083;
+    color: #ffffff;
+    text-align: center;
+  
+}
+.ingreso-texto {
+    color: #ffffff;
+}
+.button1 {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 10px black;
+    color: white;
+    background-color: #000083;
+    text-align: end;
+}
+.button1:hover{
+    background-color: #1e1eff;
+}
+
+.info{
+    background-color: #000000;
+    padding-top: 30px;
     padding-bottom: 30px;
+    color: #ffffff;
+    text-align: center;
 }
