@@ -137,6 +137,9 @@ h1 {
 .d-block {
   margin: 0 auto; }
 
+.carrusel {
+  max-width: 65%; }
+
 .product-device {
   position: absolute;
   right: 10%;
