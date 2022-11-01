@@ -1,0 +1,41 @@
+.header {
+	background-color: $header;
+	color: $background;
+	padding: auto;
+	left: 0;
+	top: 0;
+	right: 0;
+	a {
+		color: $background;
+		text-decoration: none;
+	}
+}
+.logo-nav-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.logo {
+	height: 80px;
+}
+.navigation {
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		li {
+			display: inline-block;
+			a {
+				display: block;
+				padding: 0.5rem 1rem;
+				transition: all 0.4s linear;
+				border-radius: 5px;
+				&:hover {
+					background-color: $paragraph;
+					color: $background;
+				}
+			}
+		}
+	}
+}

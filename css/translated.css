@@ -1,0 +1,237 @@
+/* IMPORTS */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+/* MISC */
+/* VARIABLE */
+/* Palette */
+/* Font Sizes */
+/*relativo al tamanio que el navegador lo defina*/
+/* Spacing */
+/*siempre vale el tamanio de la etiqueta raiz, o sea la del navegador*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 1.2rem;
+  line-height: 1.4em;
+  background-color: #e2dede; }
+
+ul {
+  list-style-type: none;
+  padding-left: 0; }
+
+p {
+  margin-bottom: 1.6em; }
+
+div h2 {
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.button1 {
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 10px black;
+  color: white;
+  background-color: #000083;
+  text-align: end; }
+  .button1:hover {
+    background-color: #1e1eff; }
+
+.button2 {
+  font-size: 1em;
+  font-weight: bold;
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 10px black;
+  color: white;
+  background-color: #5353f3;
+  text-align: end; }
+  .button2:hover {
+    background-color: #9494f3; }
+
+.contacto {
+  color: #000083;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  font-family: "roboto";
+  font-style: #000000;
+  font-weight: bold;
+  font-size: 3em; }
+
+/* PARTIALS */
+.header {
+  background-color: #333;
+  color: #e2dede;
+  padding: auto;
+  left: 0;
+  top: 0;
+  right: 0; }
+  .header a {
+    color: #e2dede;
+    text-decoration: none; }
+
+.logo-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.logo {
+  height: 80px; }
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .navigation ul li {
+    display: inline-block; }
+    .navigation ul li a {
+      display: block;
+      padding: 0.5rem 1rem;
+      transition: all 0.4s linear;
+      border-radius: 5px; }
+      .navigation ul li a:hover {
+        background-color: #666666;
+        color: #e2dede; }
+
+footer {
+  background-color: #333; }
+
+/* PAGES */
+h1 {
+  color: black;
+  border-radius: 10px;
+  font-size: 4rem;
+  line-height: 1.1em;
+  padding-bottom: 20px; }
+
+.info {
+  background-color: #000000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #ffffff;
+  text-align: center; }
+
+.ingreso {
+  padding-top: 30px;
+  background-color: #000083;
+  color: #ffffff;
+  text-align: center;
+  justify-content: center; }
+
+.ingreso-texto {
+  color: #ffffff; }
+
+#carouselExampleDark {
+  padding-top: 50px; }
+
+.d-block {
+  margin: 0 auto; }
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  transform: rotate(30deg); }
+  .product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px; }
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5; }
+
+.texto {
+  padding-top: 30px; }
+
+.titulo-info {
+  font-size: 28px;
+  font-weight: bold;
+  font-style: italic;
+  color: #000000; }
+
+h2 {
+  font-size: 2.5em; }
+
+.balanzas {
+  display: flex;
+  width: 80%;
+  margin: auto; }
+
+.registradoras {
+  display: flex;
+  width: 80%;
+  margin: auto; }
+
+.img-thumbnail {
+  height: 300px;
+  margin: 0 auto; }
+  .img-thumbnail:hover {
+    background-color: #c9c7c7; }
+
+.formcontact {
+  padding-top: 1px; }
+
+.templatemo_contacttitle {
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center; }
+
+.templatemo_contact {
+  margin: 30px;
+  width: 100%;
+  margin-left: 15%; }
+
+.templatemo_contactform input, textarea {
+  width: 100%;
+  background: #282828;
+  border: 1px solid #393939;
+  padding: 7px 10px;
+  margin: 0px 0px 10px 0px;
+  background-color: #FAFAFA; }
+
+.templatemo_contactform textarea {
+  height: 100px; }
+
+.templatemo_contactform .btn-primary {
+  background: #001485;
+  border: none;
+  border-radius: 0px;
+  color: #ffffff;
+  font-weight: 800; }
+  .templatemo_contactform .btn-primary:hover {
+    background: #504eff; }
+
+.form {
+  padding-left: 50px; }
+
+.col-md-4 {
+  width: 17%; }
+
+.contacto1 {
+  text-align: center; }

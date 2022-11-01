@@ -1,0 +1,22 @@
+{
+  "name": "proyecto1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --incluide-path scss scss/index.scss css/translated.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShimaSz/ShimaSzprimer.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShimaSz/ShimaSzprimer.github.io/issues"
+  },
+  "homepage": "https://github.com/ShimaSz/ShimaSzprimer.github.io#readme"
+}

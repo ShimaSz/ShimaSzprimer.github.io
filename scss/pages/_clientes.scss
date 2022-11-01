@@ -1,0 +1,8 @@
+.img-thumbnail {
+    height: 300px;
+    margin: 0 auto;
+  
+    &:hover {
+      background-color: $imgcolor;
+    }
+  }

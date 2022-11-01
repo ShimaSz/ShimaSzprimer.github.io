@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif ;
+    color: $header;
+    font-size: 1.2rem ;
+    line-height: 1.4em ;
+    background-color: $background;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+p {
+    margin-bottom: 1.6em;
+  }
+
+  div h2 {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .button1 {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 10px black;
+    color: white;
+    background-color: #000083;
+    text-align: end;
+  
+    &:hover {
+      background-color: #1e1eff;
+    }
+  }
+
+  .button2 {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 10px black;
+    color: white;
+    background-color: #5353f3;
+    text-align: end;
+  
+    &:hover {
+      background-color: #9494f3;
+    }
+  }
+  
+
+.contacto {
+    color: $button;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-family: "roboto";
+    font-style: $background2;
+    font-weight: bold;
+    font-size: 3em;
+}
