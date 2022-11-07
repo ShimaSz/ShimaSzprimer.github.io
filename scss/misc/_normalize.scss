@@ -20,7 +20,7 @@ p {
   }
 
   div h2 {
-    color: white;
+    color: $text-footer;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -31,14 +31,14 @@ p {
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 10px;
-    border: 1px solid black;
-    box-shadow: 2px 2px 10px black;
-    color: white;
-    background-color: #000083;
+    border: 1px solid $background2;
+    box-shadow: 2px 2px 10px $background2;
+    color: $text-footer;
+    background-color: $button;
     text-align: end;
   
     &:hover {
-      background-color: #1e1eff;
+      background-color: $colorazul;
     }
   }
 
@@ -47,24 +47,31 @@ p {
     font-weight: bold;
     padding: 5px 15px;
     border-radius: 10px;
-    border: 1px solid black;
-    box-shadow: 2px 2px 10px black;
-    color: white;
-    background-color: #5353f3;
+    border: 1px solid $background2;
+    box-shadow: 2px 2px 10px $background2;
+    color: $text-footer;
+    background-color: $button;
     text-align: end;
   
     &:hover {
-      background-color: #9494f3;
+      background-color: $buttonhover;
     }
   }
   
 
 .contacto {
-    color: $button;
+    color: $button1;
     padding-bottom: 20px;
     padding-top: 10px;
     font-family: "roboto";
     font-style: $background2;
     font-weight: bold;
     font-size: 3em;
+}
+
+.whatsapp{
+  position: fixed;
+  width: 40%; 
+  bottom:30px;
+  right:0px;
 }

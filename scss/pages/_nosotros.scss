@@ -30,6 +30,7 @@
 
   .texto{
     padding-top: 30px;
+    text-align: left;
  }
 
  .titulo-info {
@@ -38,3 +39,28 @@
     font-style: italic;
     color: #000000;
   }
+
+  .container-all {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px;
+    background: white;
+    margin-top: 10px;
+    border-top: 6px solid #65d6a6;
+  
+    img {
+      width: 500px;
+      float: right;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  
+    p {
+      font-size: 18px;
+      font-weight: 300;
+      margin-top: 20px;
+    }
+  }
+
+  
